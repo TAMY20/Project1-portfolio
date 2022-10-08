@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Portfolio</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<!-- font-awesome/4.7.0/ linking here -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+		
+		<link rel="stylesheet" href="css/animate.css">
+		
+	</head>
+	<body>
+		<div id="header">
+			<div class="container">
+				<nav>
+					<img src="img/logo.png" alt="" class="img">
+					<ul id="sidemenu">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Contact</a></li>
+						<i class="fa fa-times" onclick="closemenu()"></i>
+					</ul>
+					<i class="fa fa-bars" onclick="openmenu()"></i>
+				</nav>
+				<div class="header-text">
+					<p>UI/UX Designer</p>
+					<h1>Hello! I'm <SPAN>Kevin Clain</SPAN> <br> from Canada</h1>
+				</div>
+			</div>
+		</div>
+		<!-- ABout section start -->
+		<div id="about">
+			<div class="container">
+				<div class="row">
+					<div class="about-col-lg-5">
+						<img src="img/user.png" alt="">
+					</div>
+					<div class="about-col-lg-6">
+						<h1 class="sub-title">About me</h1>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis iste quasi quam voluptatem liausto voluptatum maiores dolor natus dipisicing elit. Blanditiis iste quasi .</p>
+						<div class="tab-titles">
+							<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+							<p class="tab-links" onclick="opentab('experience')">Experience</p>
+							<p class="tab-links" onclick="opentab('education')">Education</p>
+						</div>
+						<div class="tab-contents active-tab" id="skills">
+							<ul>
+								<li><span>UI/UX</span><br>Designing Web/App Interface</li>
+								<li><span>Full stack</span><br>Web Development</li>
+								<li><span>App Developer</span><br>Designing Web/App Interface</li>
+							</ul>
+						</div>
+						<div class="tab-contents" id="experience">
+							<ul>
+								<li><span>2018-2019</span><br>Web designer at Custome made company</li>
+								<li><span>2020-2021</span><br>Web Developer at IFCD</li>
+								<li><span>2022-present</span><br>Front-end  Developer at IFCDE</li>
+							</ul>
+						</div>
+						<div class="tab-contents" id="education">
+							<ul>
+								<li><span>2016</span><br>Designing Web/App IT school</li>
+								<li><span>2017</span><br>BSC. from City College</li>
+								<li><span>2018</span><br>Internship at W3 School</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ABout section end -->
+		<!-- service section start -->
+		<div id="services">
+			<div class="container">
+				<h1 class="sub-title">My Services</h1>
+				<div class="services-list">
+					<div>
+						<i class="fa fa-code"></i>
+						<h2>Web Design</h2>
+						<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Quis vel in aperiam neque repudiandae!</p>
+						<a href="#">Learn more</a>
+					</div>
+					<div>
+						<i class="fa fa-crop"></i>
+						<h2>UI/UX Design</h2>
+						<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Quis vel in aperiam neque repudiandae!</p>
+						<a href="#">Learn more</a>
+					</div>
+					<div>
+						<i class="fa fa-apple"></i>
+						<h2>App Design</h2>
+						<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Quis vel in aperiam neque repudiandae!</p>
+						<a href="#">Learn more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- service section end -->
+		<!-- portfolio start -->
+		<div id="portfolio">
+			<div class="container">
+				<h1 class="sub-title">My Work</h1>
+				<div class="work-list">
+					<div class="work">
+						<img src="img/work-1.png" alt="" class="img2">
+						<div class="layer">
+							<h3>Social Media App</h3>
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi non quam dolores earum vero perspiciatis.</p>
+							<a href="#"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+					<div class="work">
+						<img src="img/work-2.png" alt="" class="img2">
+						<div class="layer">
+							<h3>Movie App</h3>
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi non quam dolores earum vero perspiciatis.</p>
+							<a href="#"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+					<div class="work">
+						<img src="img/work-3.png" alt="" class="img2">
+						<div class="layer">
+							<h3>Shopping App</h3>
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi non quam dolores earum vero perspiciatis.</p>
+							<a href="#"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="btn wow pulse" data-wow-iteration="infinite" data-wow-duration="1500ms">SEE MORE</a>
+			</div>
+		</div>
+		<!-- portfolio section end -->
+		<!-- contact start -->
+		<div id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="contact-left  wow fadeInLeft" data-wow-duration="4s">
+						<h1 class="sub-title">Contact Me</h1>
+						<p>contact@example.com</p>
+						<p>122677799</p>
+						<div class="social-icons">
+							<a href="#"><i class="fa fa-facebook-square"></i></a>
+							<a href="#"><i class="fa fa-twitter-square"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
+						</div>
+						<a href="#" class="btn btn2">Download CV</a>
+					</div>
+					<div class="contact-right wow fadeInRight" data-wow-duration="4s">
+						<form>
+							<input type="text" name="name" placeholder="Your Name" required="">
+							<input type="email" name="email" placeholder="Your email" required="">
+							<textarea name="Message" placeholder="Your message" rows="5"></textarea>
+							<button type="submit" class="btn btn3">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>	2021 <i class="fa fa-snowflake-o"></i> All rights reserved.</p>
+			</div>
+		</div>
+		
+		
+		
+		<!-- jquery.min.js plug in -->
+		<script src="js/jquery.min.js"></script>
+		
+		<script>
+			
+			var tablinks = document.getElementsByClassName("tab-links");
+			var tabcontents = document.getElementsByClassName("tab-contents");
+			function opentab(tabname){
+		for(tablink of tablinks){
+					tablink.classList.remove("active-link");
+				}
+				for(tabcontent of tabcontents){
+					tabcontent.classList.remove("active-tab");
+				}
+				event.currentTarget.classList.add("active-link");
+			document.getElementById(tabname).classList.add("active-tab");
+			}
+			
+		</script>
+		<script>
+			var sidemeu = document.getElementsById("sidemenu");
+			function openmenu(){
+				sidemenu.style.right = "0";
+			}
+		function closemenu(){
+				sidemenu.style.right = "-200px";
+			}
+		</script>
+
+
+		<script src="js/wow.min.js"></script>
+		<script>
+			jQuery(function($) {
+		$(document).ready( function() {
+		//wow initiating
+		new WOW().init();
+		});
+		});
+		
+		</script>
+
+	</body>
+</html>
